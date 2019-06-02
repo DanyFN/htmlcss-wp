@@ -22,7 +22,7 @@ body{
 
 }
 
-/* TITOLO HEADER */
+/* LOGO */
 
 .mountain{
   position: absolute;
@@ -31,6 +31,8 @@ body{
   color: white;
   transform: translate(-18% -50%);
 }
+
+/* TITOLO  */
 .natural{
   width: 30%;
   height: 100px;  /*perchè con i px centra bene verticalmente?*/
@@ -46,6 +48,7 @@ body{
 }
 
 /* NAVBAR */
+
 .nav{
   width: 50%;
   height: 50px;
@@ -60,7 +63,7 @@ body{
   padding: 0 10px;
 }
 
-/*classi d'appoggio  */
+/*CLASSI D'APPOGGIO */
 
 .center{
   text-align: center;
@@ -70,11 +73,9 @@ body{
   color: rgb(87, 46, 23);
 }
 
-/* .left{
-  text-align: left;
-} */
-
 /*COLONNE */
+
+
 .tre_colonne:after {
 content: "";
 display: table;
@@ -90,18 +91,22 @@ clear: both;
 
 }
 
+.colonna1, .colonna2, .colonna3, .colonna4, .colonna5{
+  border: 1px solid white;
+  background-color: white;
+}
 .colonna1{
 
   width: 20%;
   height:500px;
-  border: 1px solid white;
+
   border-radius: 4%;
   float: left;
-  background-color: white;
+
 }
 .colonna1 h3{
   margin-top: 15px;
-  
+
 }
 .colonna1 ul li{
   text-decoration: none;
@@ -117,14 +122,16 @@ clear: both;
   background-color: orange;
   color: white;
 }
+
+
 .colonna2{
   width: 50%;
   height: 250px;
   float: left;
-  border: 1px solid white;
+
   border-radius: 2%;
   margin-left: 5%;
-  background-color: white;
+
   padding: 20px;
 
 }
@@ -135,10 +142,10 @@ clear: both;
 .colonna3, .colonna4, .colonna5{
   width: 20%;
   height:250px;
-  border: 1px solid white;
+
   border-radius: 10%;
   float: right;
-  background-color: white;
+  
   padding: 20px;
 }
 
@@ -146,7 +153,7 @@ clear: both;
   margin-top: 10px;
 }
 
-
+/* FOOTER  */
 
 footer{
   margin-top: 40px;
