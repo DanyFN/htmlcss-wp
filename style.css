@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('legno.jpg');
+  background-size: cover;
+}
+
+/* CONTAINER HEADER */
+.container{
+  width: 50%;
+  height: 300px;
+  margin: 0 auto;
+  border:5px solid white;
+  background-image: url('foresta.jpg');
+  background-size: cover;
+  margin-top: 10px;
+  position: relative;
+
+}
+
+/* TITOLO HEADER */
+
+.mountain{
+  position: absolute;
+  top: 18%;
+  left: 47%;
+  color: white;
+  transform: translate(-18% -50%);
+}
+.natural{
+  width: 30%;
+  height: 100px;  /*perchè con i px centra bene verticalmente?*/
+  margin: 0 auto;
+  border: 5px solid white;
+  line-height: 100px;
+  transform:translateY(100%);
+
+}
+.natural h1, .natural h4{
+  color: white;
+  text-align: center;
+}
+
+/* NAVBAR */
+.nav{
+  width: 50%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rgb(121, 121, 121);
+}
+.nav ul li{
+  display: inline-block;
+  line-height: 50px;
+  font-size: 12px;
+  color: white;
+  padding: 0 10px;
+}
+
+/*classi d'appoggio  */
+
+.center{
+  text-align: center;
+}
+
+.brown{
+  color: rgb(87, 46, 23);
+}
+
+/* .left{
+  text-align: left;
+} */
+
+/*COLONNE */
+.tre_colonne:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.tre_colonne{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+
+}
+
+.colonna1{
+
+  width: 20%;
+  height:500px;
+  border: 1px solid white;
+  border-radius: 4%;
+  float: left;
+  background-color: white;
+}
+.colonna1 h3{
+  margin-top: 15px;
+  
+}
+.colonna1 ul li{
+  text-decoration: none;
+  display: inline-block;
+  color: green;
+}
+
+.colonna1 li{
+  padding: 20px;
+}
+
+.colonna1 .fas{
+  background-color: orange;
+  color: white;
+}
+.colonna2{
+  width: 50%;
+  height: 250px;
+  float: left;
+  border: 1px solid white;
+  border-radius: 2%;
+  margin-left: 5%;
+  background-color: white;
+  padding: 20px;
+
+}
+
+.colonna2 p, .colonna3 p{
+  margin-top: 20px;
+}
+.colonna3, .colonna4, .colonna5{
+  width: 20%;
+  height:250px;
+  border: 1px solid white;
+  border-radius: 10%;
+  float: right;
+  background-color: white;
+  padding: 20px;
+}
+
+.colonna4{
+  margin-top: 10px;
+}
+
+
+
+footer{
+  margin-top: 40px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px 0px;
+}
+
+footer h4{
+  margin-bottom: 15px;
+}
+.container_footer{
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+footer i{
+  padding: 0px 70px;
+}
