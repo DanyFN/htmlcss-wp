@@ -34,7 +34,7 @@ body{
 
 /* TITOLO  */
 .natural{
-  width: 30%;
+  width: 40%;
   height: 100px;  /*perchè con i px centra bene verticalmente?*/
   margin: 0 auto;
   border: 5px solid white;
@@ -96,14 +96,12 @@ clear: both;
   background-color: white;
 }
 .colonna1{
-
   width: 20%;
   height:500px;
-
   border-radius: 4%;
   float: left;
-
 }
+
 .colonna1 h3{
   margin-top: 15px;
 
@@ -128,12 +126,9 @@ clear: both;
   width: 50%;
   height: 250px;
   float: left;
-
   border-radius: 2%;
   margin-left: 5%;
-
   padding: 20px;
-
 }
 
 .colonna2 p, .colonna3 p{
@@ -145,7 +140,7 @@ clear: both;
 
   border-radius: 10%;
   float: right;
-  
+
   padding: 20px;
 }
 
